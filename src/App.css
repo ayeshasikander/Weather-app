@@ -1,0 +1,117 @@
+:root{
+    --background-overlay:rgba(0,0,0,0.5);
+    --content-overlay:rgba(0,0,0,0.7);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.app{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--background-overlay);
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.container{
+    width:100%;
+    /* margin: auto; */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content2{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.content{
+    width: 40%;
+    height: 50vh;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+.card_desc{
+    margin: auto;
+    width: 60%;
+}
+
+.content_input{
+    background-color: var(--content-overlay);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content_input input{
+    width: 60%;
+    color: white;
+    padding: 0.5rem;
+    font-size: 20px;
+    font-weight: 200;
+    border: 0.8px solid white;
+    background-color: transparent;
+    border-radius: 0.4rem;
+}
+.content_input button{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.content_input button:hover{
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_temperature{
+    background-color: var(--content-overlay);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon h3{
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+.temperature h1{
+    font-size: 50px;
+}
+
+
