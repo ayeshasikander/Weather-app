@@ -6,7 +6,7 @@ import Detail from "./components/Detail";
 import { getFormatedData } from "./Weatherapi";
 
 function App() {
-  const [city, setCity] = useState("Paris");
+  const [city, setCity] = useState("Pakistan");
   const [weather, setWeather] = useState(null);
   const [unit, setUnit] = useState("metric");
   const [background, setBackground] = useState(sunset);
