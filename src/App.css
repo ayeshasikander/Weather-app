@@ -1,6 +1,6 @@
 :root{
     --background-overlay:rgba(0,0,0,0.5);
-    --content-overlay:rgba(0,0,0,0.7);
+    --content-overlay:rgba(0, 0, 0, 0.87);
 }
 
 *{
@@ -34,7 +34,6 @@ html,body{
 
 .container{
     width:100%;
-    /* margin: auto; */
     padding: 1rem;
     display: flex;
     justify-content: space-between;
@@ -44,6 +43,7 @@ html,body{
 
 .content2{
     width: 100%;
+    margin-left: 12px;
     padding: 1rem;
     border-radius: 0.4rem;
 }
